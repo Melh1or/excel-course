@@ -6,7 +6,7 @@
     "node": true
   },
   "rules": {
-    "quotes": "off",
+    "quotes": ["error", "double", { "allowTemplateLiterals": true }],
     "object-curly-spacing": "off",
     "comma-dangle": "off"
   },
