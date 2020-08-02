@@ -1,0 +1,30 @@
+{
+  "name": "excel-course",
+  "version": "1.0.0",
+  "description": "Pure JS Excel Application",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Melh1or/excel-course.git"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Trachuk Serhii <trachukserhiy@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Melh1or/excel-course/issues"
+  },
+  "homepage": "https://github.com/Melh1or/excel-course#readme",
+  "private": true,
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
