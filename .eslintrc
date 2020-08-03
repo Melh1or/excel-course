@@ -11,7 +11,8 @@
     "object-curly-spacing": ["error", "always"],
     "require-jsdoc": "off",
     "no-trailing-spaces": "off",
-    "arrow-parens": [2, "as-needed", { "requireForBlockBody": false }]
+    "arrow-parens": [2, "as-needed", { "requireForBlockBody": false }],
+    "operator-linebreak": "off"
   },
   "extends": ["eslint:recommended", "google"]
 }
