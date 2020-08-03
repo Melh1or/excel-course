@@ -7,8 +7,12 @@
   },
   "rules": {
     "quotes": ["error", "double", { "allowTemplateLiterals": true }],
-    "object-curly-spacing": "off",
-    "comma-dangle": "off"
+    "comma-dangle": "off",
+    "object-curly-spacing": ["error", "always"],
+    "require-jsdoc": "off",
+    "no-trailing-spaces": "off",
+    "arrow-parens": [2, "as-needed", { "requireForBlockBody": false }],
+    "operator-linebreak": "off"
   },
   "extends": ["eslint:recommended", "google"]
 }
