@@ -9,7 +9,9 @@
     "quotes": ["error", "double", { "allowTemplateLiterals": true }],
     "comma-dangle": "off",
     "object-curly-spacing": ["error", "always"],
-    "require-jsdoc": "off"
+    "require-jsdoc": "off",
+    "no-trailing-spaces": "off",
+    "arrow-parens": [2, "as-needed", { "requireForBlockBody": false }]
   },
   "extends": ["eslint:recommended", "google"]
 }
